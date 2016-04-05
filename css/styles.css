@@ -42,3 +42,11 @@ body {
 h1 {
   text-align: center;
 }
+
+.under21 {
+  display: none;
+}
+
+.over21 {
+  display: none;
+}

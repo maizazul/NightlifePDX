@@ -1,12 +1,12 @@
 $(document).ready(function() {
   $("form#question1").submit(function(event) {
 
-    var inputtedAge = $("input#age").val
+    var age = $("select#age").val();
 
-    if((age === 'yes21')) {
-    $(".over21").show();
-  } else {
+    if (age === 'under21') {
     $(".under21").show();
+  } else {
+    $(".over21").show();
   }
 
   $("form#question1").hide();

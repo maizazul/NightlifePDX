@@ -10,8 +10,28 @@
   <body>
     <div class="jumbotron">
       <div class="container">
-      <p>What to do tonight?</p>
+        <p>Nightlife</p>
+        <div id="pic">
+        </div>
       </div>
     </div>
+
+    <h1>What would you like to do tonight ?</h1>
+    <form id="questions">
+      <div class="container">
+          <label for="age">Over 21 ?</label>
+          <select id="age">
+            <option value="<21">NO</option>
+            <option value=">21">YES!</option>
+          </select>
+      </div>
+
+      <div class="container">
+          <label for="environment">Do you prefer nature or the city?</label>
+          <select id="environment">
+            <option value="nature">Nature</option>
+            <option value="city">City</option>
+          </select>
+      </div>
   </body>
 </html>

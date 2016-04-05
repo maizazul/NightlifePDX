@@ -4,12 +4,12 @@ body {
 
 .jumbotron {
   position: relative;
-  background-image: url("../img/pdx.jpg");
   width: 100%;
   height: 100%;
-  background-size: cover;
-  padding-top: 100px;
-  padding-bottom: 200px;
+  background-size:cover;
+  background-color: black;
+  padding-top: 10px;
+  padding-bottom: 10px;
 
 }
 .jumbotron p {
@@ -24,4 +24,21 @@ body {
 .container {
   padding-top: 10px;
   padding-bottom: 10px;
+}
+
+#pic {
+    background-image: url("../img/pdx3.jpg");
+    border: 1px solid #1b384d;
+    padding: 20px;
+    box-shadow: 0 1px #1b384d;
+    border-radius: 6px;
+    width: 600px;
+    height:400px;
+    margin: 0 auto;
+    overflow: hidden;
+    margin-top: 20px;
+}
+
+h1 {
+  text-align: center;
 }

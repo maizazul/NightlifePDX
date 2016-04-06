@@ -1,27 +1,9 @@
-body {
-  background-color: LightBlue;
-}
-
-.jumbotron {
-  position: relative;
-  background-image: url("../img/pdx.jpg");
-  width: 100%;
-  height: 100%;
-  background-size: cover;
-  padding-top: 100px;
-  padding-bottom: 200px;
-
-}
-.jumbotron p {
-  font-family: 'Montserrat', sans-serif;
-  font-weight: bold;
-  color: white;
-  font-size: 60px;
-  text-transform: uppercase;
-  text-align: center;
-}
-
-.container {
-  padding-top: 10px;
-  padding-bottom: 10px;
-}
+  /*html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }*/
+  #map {
+    height: 500px;
+    width: 500px;
+  }

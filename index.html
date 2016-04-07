@@ -21,14 +21,17 @@
     <div id='test'></div>
 
 
-    <h1>What would you like to do tonight ?</h1>
-    <form id="question1">
+    <h1>What neighborhood would you like to spend your night in?</h1>
+    <form id="nightlife">
       <div class="container">
-        <div class= "21">
-          <label for="age">Over 21 ?</label>
-          <select id="age">
-            <option value="under21">NO</option>
-            <option value="yes21">YES!</option>
+        <div class= "neighborhood">
+          <label for="neighborhood">Select the neighborhood?</label>
+          <select id="neighborhood">
+            <option value="NE">NorthEast</option>
+            <option value="N">North</option>
+            <option value="NW">NorthWest</option>
+            <option value="SW">SouthWest</option>
+            <option value="SE">SouthEast</option>
           </select>
         </div>
       </div>
@@ -39,26 +42,18 @@
 
 
       <div class="container">
-        <div class="under21">
-          <label for="no21">Type of activity</label>
-          <select id="no21">
-            <option value="music">Music</option>
-            <option value="artshow">Artshow</option>
-          </select>
-        </div>
-      </div>
-
-      <div class="container">
-        <div class="over21">
-          <label for="21a">Type of activity</label>
-          <select id="21a">
-            <option value="music">Music</option>
-            <option value="bar">Bar</option>
+        <div class= "activity">
+          <label for="activity">What do you want to do tonight?</label>
+          <select id="activity">
+            <option value="dance">Dance to a great DJ!</option>
+            <option value="karaoke">Sing karaoke!</option>
+            <option value="dive">Drink at a dive</option>
+            <option value="comedy">Laugh at a comedy show!</option>
           </select>
         </div>
       </div>
 
   </body>
-  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAJHi5tkfjRNscD-uu9VXsKUnAqVk-xjpM&callback=initMap"
-  async defer></script>
+  <!-- <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAJHi5tkfjRNscD-uu9VXsKUnAqVk-xjpM&callback=initMap"
+  async defer></script> -->
 </html>

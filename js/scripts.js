@@ -1,5 +1,5 @@
 
-var clickArray = ['pizza'];
+var clickArray = ['april'];
 
 
 var myCallback = function() {
@@ -44,17 +44,30 @@ window.__gcse = {
 })();
 
 $(document).ready(function() {
-  $("form#question1").submit(function(event) {
+  $("form#neighborhood").submit(function(event) {
 
-    var age = $("select#age").val();
+    var hood = $("select#neighborhood").val();
 
-    if (age === 'under21') {
-    $(".under21").show();
-  } else {
-    $(".over21").show();
+    if (hood === 'NE') {
+    $(".").show();
+    clickArray.push('NorthEast');
+  } else if (hood === "N") {
+    $(".").show();
+    clickArray.push('North');
+  } else if (hood === "NW") {
+    $(".").show();
+    clickArray.push('NorthWest');
+  } else if (hood === "SW") {
+    $(".").show();
+    clickArray.push('SouthWest');
+  } else (hood === "SE") {
+    $(".").show();
+    clickArray.push('SouthEast');
   }
 
-  $("form#question1").hide();
+  }
+
+  $("form#neighborhood").hide();
 
   event.preventDefault();
   });

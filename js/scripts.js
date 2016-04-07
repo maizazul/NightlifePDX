@@ -1,3 +1,4 @@
+
 var clickArray = ['pizza'];
 
 
@@ -41,3 +42,20 @@ window.__gcse = {
   gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
   var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(gcse, s);
 })();
+
+$(document).ready(function() {
+  $("form#question1").submit(function(event) {
+
+    var age = $("select#age").val();
+
+    if (age === 'under21') {
+    $(".under21").show();
+  } else {
+    $(".over21").show();
+  }
+
+  $("form#question1").hide();
+
+  event.preventDefault();
+  });
+});
